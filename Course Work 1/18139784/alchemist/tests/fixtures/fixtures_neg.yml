@@ -1,0 +1,63 @@
+# test no lower
+- middle:
+    - involucrata
+    - serpyllum
+    - antifirma
+    - antieycholra
+    - psittaccina
+
+  upper:
+    - alcea
+    - antiinvolucrata
+    - campanula
+    - antiserpyllum
+    - antiinvolucrata
+    - firma
+      
+# test no upper      
+- lower:
+    - involucrata
+    - serpyllum
+    - antifirma
+    - antieycholra
+    - psittaccina
+
+  middle:
+    - alcea
+    - antiinvolucrata
+    - campanula
+    - antiserpyllum
+    - antiinvolucrata
+    - firma
+    
+# test not enougth keys      
+- lower:
+    - involucrata
+    - serpyllum
+    - antifirma
+    - antieycholra
+    - psittaccina
+
+# test not enougth keys      
+- lower:
+    - involucrata
+    - serpyllum
+    - antifirma
+    - antieycholra
+    - psittaccina
+
+  middle:
+    - alcea
+    - antiinvolucrata
+    - campanula
+    - antiserpyllum
+    - antiinvolucrata
+    - firma
+    
+  upper:
+    - alcea
+    - antiinvolucrata
+    - campanula
+    - antiserpyllum
+    - antiinvolucrata
+    - firma

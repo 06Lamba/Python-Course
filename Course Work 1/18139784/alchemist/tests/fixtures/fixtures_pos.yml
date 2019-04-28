@@ -1,0 +1,98 @@
+# test run_full_experiment
+- lower:
+    - involucrata
+    - serpyllum
+    - antifirma
+    - antieycholra
+    - psittaccina
+
+  upper:
+    - alcea
+    - antiinvolucrata
+    - campanula
+    - antiserpyllum
+    - antiinvolucrata
+    - firma
+
+  answer:
+    - - antieycholra
+      - psittaccina
+    - - alcea
+      - antiinvolucrata
+      - campanula
+      
+# test antianti      
+- lower:
+    - antiantiinvolucrata
+    - antiantifirma
+
+  upper:
+    - antiinvolucrata
+    - firma
+
+  answer:
+    - - antiantifirma
+    - - firma
+
+# test return empty lists
+- lower:
+    - involucrata
+    - serpyllum
+    - antifirma
+
+  upper:
+    - antiserpyllum
+    - antiinvolucrata
+    - firma
+
+  answer:
+    - ""
+    - ""
+    
+# test lower list empty
+- lower:
+    ""
+
+  upper:
+    - antiserpyllum
+    - antiinvolucrata
+    - firma
+
+
+  answer:
+    - ""
+    - - antiserpyllum
+      - antiinvolucrata
+      - firma
+    
+# test upper empty
+- lower:
+    - involucrata
+    - serpyllum
+    - antifirma
+
+  upper:
+    ""
+
+
+  answer:
+    - - involucrata
+      - serpyllum
+      - antifirma
+
+    - ""
+    
+# test both lists empty
+- lower:
+    ""
+
+  upper:
+    ""
+
+
+  answer:
+    - ""
+    - ""
+    
+
+    
